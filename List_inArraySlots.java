@@ -31,7 +31,7 @@ public class List_inArraySlots {
 
 			if (list[i] instanceof String) {
 			
-				if (((String)list[i]).startsWith("pi"));
+				if (((String)list[i]).startsWith("pi"))
 				s += list[i];
 			}
 		}
