@@ -34,27 +34,6 @@ public class List_inArraySlots {
 	return true;
   }
 
-  /* public boolean add( int type   // same meaning as in typeOfElements
-                              , Integer intValue
-                              , Double doubleValue
-                              , String stringValue
-                              ) {
-	     if(list.length == filledElements)
-       expand();
-       if (type == 0) {
-         list[filledElements] = intValue;
-       } else {
-         if (type == 1) {
-           list[filledElements] = doubleValue;
-         } else {
-           list[filledElements] = stringValue;
-         }
-       }
-       filledElements++;
-       return true;
-     } //element each time an add method is invoked.
-    */
-
     private void expand() {
 	      Object[] expandedList = new Object [list.length * 2];
         for (int i = 0; i < list.length; i++) {
