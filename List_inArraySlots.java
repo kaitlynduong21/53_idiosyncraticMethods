@@ -23,6 +23,22 @@ public class List_inArraySlots {
       return s+= "]";
   }
 
+	public String catElementsStartingWith (String pre) {
+
+		String s = "";
+
+		for (int i = 0; i < filledElements; i++) {
+
+			if (list[i] instanceof String) {
+			
+				if (((String)list[i]).startsWith("pi"));
+				s += list[i];
+			}
+		}
+		
+		return s;
+	}
+
   public boolean add (Object element) {
 
 	if (list.length == filledElements)
